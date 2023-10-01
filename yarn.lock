@@ -1506,6 +1506,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.20.13":
+  version: 7.23.1
+  resolution: "@babel/runtime@npm:7.23.1"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: 0cd0d43e6e7dc7f9152fda8c8312b08321cda2f56ef53d6c22ebdd773abdc6f5d0a69008de90aa41908d00e2c1facb24715ff121274e689305c858355ff02c70
+  languageName: node
+  linkType: hard
+
 "@babel/standalone@npm:^7.15.5":
   version: 7.15.8
   resolution: "@babel/standalone@npm:7.15.8"
@@ -11260,6 +11269,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-react-helmet@npm:^6.12.0":
+  version: 6.12.0
+  resolution: "gatsby-plugin-react-helmet@npm:6.12.0"
+  dependencies:
+    "@babel/runtime": ^7.20.13
+  peerDependencies:
+    gatsby: ^5.0.0-next
+    react-helmet: ^5.1.3 || ^6.0.0
+  checksum: ce38ec927f4fd4125a20a379b8a2c5b9ecfa45ca8744d08775f665de79ff8f02f2e69956485e29b2913a505e8c1a96c7aba194d8801f676a4ea7beb100e4fe14
+  languageName: node
+  linkType: hard
+
 "gatsby-plugin-react-svg@npm:^3.1.0":
   version: 3.1.0
   resolution: "gatsby-plugin-react-svg@npm:3.1.0"
@@ -11862,7 +11883,7 @@ __metadata:
     gatsby-plugin-nprogress: ^4.0.0
     gatsby-plugin-offline: ^5.0.0
     gatsby-plugin-page-creator: ^4.0.0
-    gatsby-plugin-react-helmet: ^5.0.0
+    gatsby-plugin-react-helmet: ^6.12.0
     gatsby-plugin-react-svg: ^3.1.0
     gatsby-plugin-sharp: ^4.0.0
     gatsby-plugin-sitemap: ^5.0.0
@@ -22232,6 +22253,13 @@ __metadata:
   version: 0.13.9
   resolution: "regenerator-runtime@npm:0.13.9"
   checksum: 65ed455fe5afd799e2897baf691ca21c2772e1a969d19bb0c4695757c2d96249eb74ee3553ea34a91062b2a676beedf630b4c1551cc6299afb937be1426ec55e
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "regenerator-runtime@npm:0.14.0"
+  checksum: 1c977ad82a82a4412e4f639d65d22be376d3ebdd30da2c003eeafdaaacd03fc00c2320f18120007ee700900979284fc78a9f00da7fb593f6e6eeebc673fba9a3
   languageName: node
   linkType: hard
 
